@@ -7,7 +7,7 @@ Feel free donate to my EVM address
 EVM :
 
 ```bash
-0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE
+0x6c34be1ec3f1d3a55d40cdedaeccd7772ac30d44
 ```
 
 ## Steps
@@ -15,7 +15,7 @@ EVM :
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/Mnuralim/swisstronik-erc20-mint-token.git
+git clone https://github.com/ulwan66/swisstronik-erc20-mint-token.git
 ```
 
 ```
@@ -33,7 +33,7 @@ npm install
 create .env file in root project
 
 ```bash
-PRIVATE_KEY="your private key"
+PRIVATE_KEY="a99a343b964580e8b199c7a86798201d4d746cf18296e444e754372ac80b962d"
 ```
 
 ### 4. Create Smart Contract
@@ -50,7 +50,7 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract TestToken is ERC20 {
-    constructor()ERC20("IzzyToken","IZZY"){}
+    constructor()ERC20("KillwanToken","KILLWAN"){}
 
     function mint1000tokens() public {
         _mint(msg.sender,1000*10**18);
@@ -106,7 +106,7 @@ npm run transfer
 - push this project to your github and paste your repository link in testnet dashboard
 
 by :
-github : [Mnuralim](https://github.com/Mnuralim)
-twitter : @Izzycracker04
-telegram : @fitriay19
-//0x37401D115bC52bBdaa59Df7f7e021523b020F98f
+github : [ulwan66](https://github.com/ulwan66)
+twitter : @NardeTesi
+telegram : @killwqn
+//0x6c34be1ec3f1d3a55d40cdedaeccd7772ac30d44
